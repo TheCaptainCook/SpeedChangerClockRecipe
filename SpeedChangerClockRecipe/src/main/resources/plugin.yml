@@ -1,0 +1,10 @@
+name: SpeedChangerClockRecipe
+version: '${project.version}'
+main: in.masem.speedchangerclockrecipe.SpeedChangerClockRecipe
+api-version: 1.19
+
+commands:
+  speedclock:
+    usage: /<command>
+    description: gives the player a custom speed.
+    aliases: [ sp, spdclk, sck ]
